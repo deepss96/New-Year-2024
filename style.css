@@ -16,7 +16,7 @@ body{
     background: url(Aryan.jpeg) no-repeat;
     background-size: cover;
     background-position: center;
-    backdrop-filter: blur(5px);  
+    backdrop-filter: blur(3px);  
 }
 .container{
     display: flex;
