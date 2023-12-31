@@ -23,27 +23,35 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 700px;
+    max-width: 1180px;
     height: 100vh;
     perspective: 1200px;
+    margin-inline: auto;
+    overflow: hidden;
 }
 .card{
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 450px;
-    height: 600px;
+    max-width: 1180px;
+    max-height: 580px;
     transform-style: preserve-3d;
+    overflow: hidden;
 }
   .card-bg{
     position: absolute;
 }
              
   img{
+    position: relative;
     z-index: 1;
-    width: 100%;
+    width: auto;
     border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
   .title{
     z-index: 2;
@@ -56,14 +64,24 @@ body{
   h2{
   font-size: 25px;
   color: rgb(148, 10, 240);
+  overflow: hidden;
+  position: relative;
 }
   h1{
      font-family:"Berkshire swash", cursive;
      color: deeppink;
      font-size: 60px;
+     position: relative;
   }
   h3{
     font-size: 28px;
     margin-top: 15px;
     color: rgb(148, 10, 240);
+    overflow: hidden;
+    position: relative;
+  }
+ 
+
+  @media screen and (max-width: 991px){
+    
   }
