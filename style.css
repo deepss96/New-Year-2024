@@ -100,7 +100,7 @@ body{
     position: relative;
     z-index: 1;
     max-width: 300px;
-    max-height: 500px;
+    max-height: 550px;
     border-radius: 10px;
     overflow: hidden;
     display: flex;
@@ -111,12 +111,11 @@ body{
      .title{
       z-index: 2;
       position: absolute;
-      top: 120px;
+      margin-top:10px;
       text-align: center;
       line-height: 40px;
       transition: all 0,3s ease-out;
   }
-
      h2{
       font-size: 20px;
       color: rgb(148, 10, 240);
