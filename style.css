@@ -34,10 +34,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1180px;
-    max-height: 580px;
+    width: 500px;
+    height: 700px;
     transform-style: preserve-3d;
-    overflow: hidden;
 }
   .card-bg{
     position: absolute;
@@ -82,6 +81,44 @@ body{
   }
  
 
-  @media screen and (max-width: 991px){
-    
+  @media screen and (max-width: 400px){
+  img{
+    position: relative;
+    z-index: 1;
+    max-width: 300px;
+    max-height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     }
+     .title{
+      z-index: 2;
+      position: absolute;
+      top: 120px;
+      text-align: center;
+      line-height: 40px;
+      transition: all 0,3s ease-out;
+  }
+
+     h2{
+      font-size: 20px;
+      color: rgb(148, 10, 240);
+      overflow: hidden;
+      position: relative;
+    }
+      h1{
+         font-family:"Berkshire swash", cursive;
+         color: deeppink;
+         font-size: 40px;
+         position: relative;
+      }
+      h3{
+        font-size: 25px;
+        margin-top: 10px;
+        color: rgb(148, 10, 240);
+        overflow: hidden;
+        position: relative;
+      }
   }
