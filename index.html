@@ -7,28 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container-fluid"></div>
-<div class="row mx-0" style="height: 500px">
-<div class="col"></div>
-<div class="col-8">
+
     <div class="container">
         <div class="card">
             <img class="card-bg." src="New Year 2024.jpg" height="600" width="500" alt="">
         </div>
         <div class="title">
+           
             <h2>H a p p y</h2>
             <h1>New Year</h1>
             <h3>& Stay Happily</h3>
+
         </div>
     </div>
-</div>
-</div>
+
     <script>
         const container = document.querySelector(".container");
         const card = document.querySelector(".card")
         const title = document.querySelector(".title")
-        const santa = document.querySelector(".santa")
-        const tree = document.querySelector(".tree");
+     
 
         container.addEventListener("mousemove",(rotate) => {
             let x = (innerWidth / 2 - rotate.pageX) / 15;
@@ -38,9 +35,9 @@
         });
 
         container.addEventListener("mouseover", () => {
-            title.style.transform = "translate3d(0, 0, 160px)";
-            santa.style.transform = "translate3d(0, 0, 220px)";
-            tree.style.transform  = "translate3d(0, 0, 120px)";
+            title.style.transform = "translate3d(0, 0, 150px)";
+            santa.style.transform = "translate3d(0, 0, 200px)";
+            tree.style.transform  = "translate3d(0, 0, 100px)";
             card.style.transition = "all 0.1s ease";
         });
 
@@ -48,8 +45,6 @@
             card.style.transform = "rotateY(0deg) rotateX(0deg)";
             card.style.transition = "all 0.5s ease";
             title.style.transform = "translate3d(0, 0, 0)";
-            santa.style.transform = "translate3d(0, 0, 0)";
-            tree.style.transform = "translate3d(0, 0, 0)";
         });
     </script>
 
