@@ -100,7 +100,7 @@ body{
     position: relative;
     z-index: 1;
     max-width: 300px;
-    max-height: 400px;
+    max-height: 500px;
     border-radius: 10px;
     overflow: hidden;
     display: flex;
